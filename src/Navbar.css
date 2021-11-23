@@ -1,0 +1,26 @@
+#navbarNav {
+  background-color: #001a3b;
+  width: 102%;
+}
+.nav-icon {
+  align-content: center;
+  /* align-items: baseline; */
+  /* float: left; */
+  display: flex;
+  flex-wrap: wrap;
+  size: 30px;
+  margin-top: -20px;
+}
+.nav-link {
+  /* margin-top: 9px; */
+  /* margin-top: 11px; */
+}
+.nav-item {
+  margin-top: 17px;
+}
+a {
+  text-decoration: none;
+}
+#item-count {
+  margin-top: 2px;
+}

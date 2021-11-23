@@ -1,0 +1,91 @@
+body {
+  background-color: #d4e7ff;
+  width: 98%;
+}
+#mainNavBar {
+  background-color: #001a3b;
+}
+
+#content-title {
+  color: #001a3b;
+}
+
+.banner-area {
+  width: 100%;
+  height: 100vh;
+  /* background: linear-gradient(rgba(250, 250, 250,0), rgba(250, 250, 250,0)), url("water4.jpg"); */
+  /* background-color: #001a3b; */
+  background-color: #d4e7ff;
+  background-size: cover;
+}
+
+.content-area {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.main_title {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: "Brygada 1918", serif;
+  /* font-family: 'Yeseva One', cursive; */
+  /* font-family: 'Fredericka the Great', cursive; */
+  font-weight: 500;
+  color: white;
+}
+.sub_title {
+  text-align: center;
+  font-size: 1.7em;
+  color: white;
+  font-weight: 200;
+}
+
+.browse_products {
+  background-color: rgba(255, 255, 255, 100);
+  filter: drop-shadow(0px 0px 2px #666);
+  border-radius: 2px;
+  border: 1px solid transparent;
+  outline: none;
+  /* color: #fff; */
+}
+
+.browse_products:hover {
+  background-color: rgb(175, 175, 175);
+  transition: 0.2s;
+  color: #fff;
+}
+
+#data {
+  background-color: #d4e7ff;
+}
+
+#img {
+  height: 60%;
+  width: 60%;
+  filter: drop-shadow(0px 0px 5px #666);
+  border-radius: 2%;
+}
+
+#extraSpace {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#carousel {
+  /* height: 50%;
+      width: 50%; */
+  /* display: flex;
+      justify-content: center;
+      align-items: center; */
+  padding-top: 10%;
+  padding-left: 25%;
+  padding-bottom: 10%;
+  padding-right: 25%;
+  background-color: #d4e7ff;
+}

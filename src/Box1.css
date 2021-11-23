@@ -1,0 +1,23 @@
+.boxStyle {
+    display: inline-block;
+  }
+  
+  .nameStyle {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .desgnStyle {
+    margin-left: 100;
+    margin-top: 20;
+  }
+  
+  .picStyle {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+  }
+  
