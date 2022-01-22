@@ -1,0 +1,28 @@
+body {
+  /* background-color: rgb(146, 210, 231); */
+  background-color: #d4e7ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  margin-top: 180px;
+}
+.container a {
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin: 8px;
+  font-size: 30px;
+}
+.container label {
+  cursor: none;
+  font-family: "Cookie", cursive;
+  font-size: 130px;
+}

@@ -1,0 +1,44 @@
+body {
+  /* background-color: rgb(146, 210, 231); */
+  background-color: #d4e7ff;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Cookie", cursive;
+  font-size: 50px;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+form {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.register-form input {
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-family: "Brygada 1918", serif;
+}
+.register-form label {
+  font-size: 20px;
+  font-family: "Brygada 1918", serif;
+}
+.register-form button {
+  cursor: pointer;
+  font-family: "Brygada 1918", serif;
+  font-size: 20px;
+  display: flex;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  padding-right: 10px;
+}

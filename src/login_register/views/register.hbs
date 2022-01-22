@@ -1,33 +1,41 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./register.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
     <title>User Registration</title>
-</head>
-<body>
-    {{>navbar}}
-    <form action="/register"method="POST">
-        <div class = "form">
-            <label for="" class="first">First Name: </label>
-            <input type="text" name="firstname"><br>
-            <label for="" class="last">Last Name:</label>
-            <input type="text"name="lastname"><br>
-            <label for=""class="email">Email ID:</label>
-            <input type="email"name="email"><br>
-            <label for=""class="phone">Phone Number</label>
-            <input type="text"name="phone"><br>
-            <label for=""class="gender">Gender:</label>
-            <input type="radio" name="gender"><span>Male</span>
-            <input type="radio"name="gender"><span>Female</span><br>
-            <label for=""class="password">Password:</label>
-            <input type="password" name="password" placeholder="Enter password"><br>
-            <label for=""class="confirm">Confirm Password:</label>
-            <input type="password"name="confirmPassword"><br>
-            <button type="submit">Register</button>
-        </div>
-        
+  </head>
+  <body>
+    <a href="http://localhost:5000">Scrubsolace</a>
+    <form action="/register" method="POST">
+      <div class="register-form">
+        <label for="" class="first">First Name: </label>
+        <input type="text" name="firstname" /><br />
+        <label for="" class="last">Last Name:</label>
+        <input type="text" name="lastname" /><br />
+        <label for="" class="email">Email ID:</label>
+        <input type="email" name="email" /><br />
+        <label for="" class="phone">Phone Number</label>
+        <input type="text" name="phone" /><br />
+        <label for="" class="gender">Gender:</label>
+        <input type="radio" name="gender" /><span class="radio-btn">Male</span>
+        <input type="radio" name="gender" /><span
+          class="radio-btn"
+        >Female</span><br />
+        <label for="" class="password">Password:</label>
+        <input type="password" name="password" /><br />
+        <label for="" class="confirm">Confirm Password:</label>
+        <input type="password" name="confirmPassword" /><br />
+        <button type="submit">Register</button>
+      </div>
+
     </form>
-</body>
+  </body>
 </html>

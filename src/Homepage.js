@@ -1,6 +1,7 @@
 import React from "react";
 import "./Homepage.css";
 import milk from "./imgs/milk.png";
+import { Link, NavLink } from "react-router-dom";
 import lolli_icon from "./imgs/lolli_icon.png";
 import sprinkles from "./imgs/sprinkles.png";
 import hand from "./imgs/hand2.png";
@@ -21,9 +22,9 @@ function Homepage() {
               <h2 style={titleStyle} className="sub_title">
                 Personalised Scrubs
               </h2>
-              <button className="browse_products">
-                BROWSE PRODUCTS
-              </button>
+              <Link to="/products">
+                <button className="browse_products">BROWSE PRODUCTS</button>
+              </Link>
             </div>
           </div>
         </div>

@@ -11,9 +11,13 @@
   size: 30px;
   margin-top: -20px;
 }
-.nav-link {
+.nav-link-cart {
   /* margin-top: 9px; */
   /* margin-top: 11px; */
+  color: rgb(0 0 0 / 83%);
+}
+.nav-link-cart :hover {
+  color: rgb(0 0 0 / 83%);
 }
 .nav-item {
   margin-top: 17px;

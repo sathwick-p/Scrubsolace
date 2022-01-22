@@ -16,7 +16,7 @@ function Navbar() {
       id="navbarNav"
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Scrubsolace.
         </a>
 
@@ -54,6 +54,11 @@ function Navbar() {
                 Contact
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/logout" className="nav-link active">
+                Log Out
+              </Link>
+            </li>
             <div className="nav-icon">
               <li className=" nav-item nav-icon active">
                 <Link to="/cart" className=" nav-link-cart active">
@@ -63,11 +68,6 @@ function Navbar() {
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
-              <Link to="/logout" className="nav-link active">
-                Log Out
-              </Link>
-            </li>
             </div>
           </ul>
         </div>
